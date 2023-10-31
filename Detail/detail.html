@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="show_header" class="container">
+            <div class="h_left" style="display: flex; align-items: center;">
+                <img id="header_logo"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/881f9db0-c2c7-4b02-9fa8-1d6ac1a5a474/d79474v-10e701dd-dbe1-4868-9778-a5e9e96dc78b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg4MWY5ZGIwLWMyYzctNGIwMi05ZmE4LTFkNmFjMWE1YTQ3NFwvZDc5NDc0di0xMGU3MDFkZC1kYmUxLTQ4NjgtOTc3OC1hNWU5ZTk2ZGM3OGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2EL4LcuFpxC0V5T_5wi625afLYsUHQJCXPHH3pjLVoo"
+                    alt="" style="width: 100px; height: 100px;">
+                <span style="font-size: 40px; color: wheat; ">Wibu Store</span>
+            </div>
+
+            <div id="sign_option" class="h_right">
+                <!-- <a class="span" href="">
+                    <span class="material-symbols-outlined" style="font-size: 30px;">
+                        shopping_cart
+                    </span>
+                </a>
+                <a id="signin_option" style="display: ${token ? " block" : "none" }" class="span">Hello Wibu</a>
+                <a id="signin_option" class="span" style="display: ${token ? " none" : "block" }"
+                    href="http://127.0.0.1:5501/sign-option/signin.html">Signin</a>
+                <a id="signup_option" class="span" style="display: ${token ? " none" : "block" }"
+                    href="http://127.0.0.1:5501/sign-option/signup.html">Signup</a>
+                <a id="signout_option" style="display: ${token ? " block" : "none" }" class="span"
+                    onclick="signOut()">Signout</a> -->
+            </div>
+        </div>
+    </header>
+
+    <section id="main_menu">
+        <div class="container">
+            <ul class="menu_ul" style="list-style: none;">
+                <li class="menu_li option1"><a style="text-decoration: none; color: black;"
+                        href="http://127.0.0.1:5500/Main/index.html">Home</a></li>
+                <li class="menu_li option2">Men</li>
+                <li class="menu_li option3">Women</li>
+                <li class="menu_li option4">Kid</li>
+                <li class="menu_li option5">Sport</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="main_product">
+        <div id="product_detail" class="container">
+            <div class="main_product_left">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRAOdGF1Zil2QxKzJ2qw9hZLN8bqZByKsZGZwm10cPJx5TdhzWWDpnGef8rC0NdB6g-EHldP5HHJirtRd9fRHbHaekK5RMVZ-J5e7Uljen0-wLeolBvTpAM&usqp=CAE"
+                    alt="">
+            </div>
+
+            <div class="main_product_right">
+                <div class="product_info">
+                    <h1>Giày Nike Dior x Air Jordan 1 High CN8607-002 -43</h1>
+                    <span>Nếu bạn là một fan hâm mộ của Dior AJ1 High, hãy đợi cho đến khi bạn nhìn thấy Dior x Air
+                        Jordan 1
+                        High. Chắc chắn là một trong những bản collab sneaker hot nhất trong cả thập kỷ, hình bóng một
+                        đôi
+                        Air Jordan chưa bao giờ thực sự bùng nổ như thế này trước đây, và đã đến lúc để mọi người phải
+                        trầm
+                        trồ. Được giới thiệu tại triển lãm “Paris 3020.” của nghệ sĩ đương đại Daniel Arsham, đây là mọi
+                        thứ
+                        bạn cần biết về đôi Jordan 1 High Dior mới nhất của Kim Jones.
+                    </span>
+                </div>
+
+                <div class="product_size">
+                    <h1>Available Sizes</h1>
+                    <ul class="size_ul" style="list-style: none;">
+                        <li style="border: 1px solid black; background: wheat;">38</li>
+                        <li>39</li>
+                        <li>40</li>
+                        <li>41</li>
+                        <li>42</li>
+                    </ul>
+                </div>
+
+                <div class="product_cart">
+                    <h1 style="color: red; font-size: 30px; margin-bottom: 10px;">US $11,500.00</h1>
+                    <div class="product_cart_quantity">
+                        <span class="material-symbols-outlined cart_border">remove</span>
+                        <span class="cart_quantity">1</span>
+                        <span class="material-symbols-outlined cart_border">add</span>
+                    </div>
+                    <span class="cart_btn">Add to cart</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="realate_product">
+        <div class="container">
+            <div class="rp_title">-Realate Product-</div>
+
+            <ul id="rp_product_list" class="rp_product" style="list-style: none;">
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+                <li class="rp_product_item">
+                    <div class="item_img">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da82bd45-5d45-45c9-a066-575684f12515/gamma-force-shoes-CbTnH1.png"
+                            alt="">
+                    </div>
+                    <div class="item_info" style="margin-bottom: 10px;">
+                        <h2 style="margin-bottom: 10px;">Nike Gamma Force</h2>
+                        <h4>Layers upon layers of dimensional style—that's a force to be reckoned with.</h4>
+                    </div>
+                    <div class="item_price">
+                        <h2 class="price_left">Buy Now</h2>
+                        <h2 class="price_right">120$</h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- script -->
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script type="" src="detail.js"></script>
+</body>
+
+</html>
